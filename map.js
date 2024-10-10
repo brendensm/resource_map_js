@@ -153,4 +153,6 @@ map.on('load', async function () {
 
     // Add event listener for dataset selection
     document.getElementById('dataSelect').addEventListener('change', updateDataset);
+    
+    document.getElementById('toggleControls').addEventListener('click', toggleControls);
 });
