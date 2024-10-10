@@ -22,3 +22,15 @@ pharm <- readxl::read_xlsx("data/raw/pharmacy_online_map_data.xlsx") |>
   rename(name = pharmacy)
 
 st_write(pharm, "data/pharm.geojson", driver = "GeoJSON")
+
+
+ssp <- readxl::read_xlsx("data/raw/ssp.xlsx") |> 
+  janitor::clean_names() |> 
+  select(site_name, latitude, longitude) |> 
+  rename(name = site_name) |> 
+  st_as_sf(coords = c("longitude", "latitude"), crs = st_crs(mi_counties)) 
+
+st_write(ssp, "data/ssp.geojson", driver = "GeoJSON")
+
+
+

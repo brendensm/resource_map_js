@@ -46,14 +46,23 @@ function updateDataset() {
 
     if (selectedDataset === 'Narcan') {
         url = 'https://brendensm.github.io/resource_map_js/data/narcan_directory.geojson';
+        circleColor = '#e41a1c';
     } else if (selectedDataset === 'Pharmacy') {
         url = 'https://brendensm.github.io/resource_map_js/data/pharm.geojson'; 
+         circleColor = '#377eb8';
+    } else if (selectedDataset == 'SSP') {
+        url = 'https://brendensm.github.io/resource_map_js/data/ssp.geojson';
+        circleColor = '#4daf4a';
     } else {
         console.error('Invalid dataset selected');
         return;
     }
+    
+    
+    
 
     loadGeoJSON(url).then(data => {
+      
         if (data) {
             if (map.getSource('points')) {
                 map.getSource('points').setData(data);
@@ -81,7 +90,7 @@ function updateDataset() {
                     source: 'points',
                     paint: {
                         'circle-radius': 5,
-                        'circle-color': '#B42222'
+                        'circle-color': circleColor
                     }
                 });
 
@@ -103,11 +112,20 @@ function updateDataset() {
                     map.getCanvas().style.cursor = '';
                 });
             }
+            
+            map.setPaintProperty('points', 'circle-color', circleColor);
+            
         } else {
             console.error('Failed to load point data');
         }
     });
 }
+
+function toggleControls() {
+const controlsContainer = document.getElementById('controls');
+    controlsContainer.classList.toggle('collapsed');
+}
+
 
 map.on('load', async function () {
     // Load county centroids

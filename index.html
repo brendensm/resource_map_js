@@ -10,11 +10,15 @@
 </head>
 <body>
     <div id="map"></div>
+    
+
     <div id="controls">
+      
       <h4>Data to plot:</h4>
         <select id ="dataSelect">
           <option value="Narcan">Narcan</option>
           <option value="Pharmacy">Pharmacy</option>
+          <option value="SSP">SSP</option>
         </select>
         <br>
         <h4>Zoom to County:</h4>
@@ -24,7 +28,9 @@
         <button onclick="zoomToCounty()">Go</button>
         <button onclick="resetView()">Reset</button>
     </div>
+    <br>
+      <button id="toggleControls" aria-label="Toggle controls">Hide/Show Menu</button>
 
-    <script src="map.js"></script>
+    <script src="dev.js"></script>
 </body>
 </html>
