@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michigan County Map</title>
+    <script src='https://unpkg.com/maplibre-gl@3.3.1/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@3.3.1/dist/maplibre-gl.css' rel='stylesheet' />
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; }
+        #map { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #countySelect { margin-right: 10px; }
+        button { margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="controls">
+        <select id="countySelect">
+            <option value="">Select a county</option>
+        </select>
+        <button onclick="zoomToCounty()">Go to County</button>
+        <button onclick="resetView()">Reset to Michigan</button>
+    </div>
+
+    <script>
+        const MICHIGAN_CENTER = [-84.506836, 44.182205];
+        const MICHIGAN_ZOOM = 6;
+
+        var map = new maplibregl.Map({
+            container: 'map',
+            style: 'https://raw.githubusercontent.com/go2garret/maps/main/src/assets/json/openStreetMap.json',
+            center: MICHIGAN_CENTER,
+            zoom: MICHIGAN_ZOOM
+        });
+
+        let michiganCounties = {};
+
+        async function loadGeoJSON(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return await response.json();
+            } catch (error) {
+                console.error('Error loading GeoJSON:', error);
+                return null;
+            }
+        }
+
+        function zoomToCounty() {
+            const selectedCounty = document.getElementById('countySelect').value;
+            if (selectedCounty && michiganCounties[selectedCounty]) {
+                map.flyTo({
+                    center: michiganCounties[selectedCounty],
+                    zoom: 10
+                });
+            }
+        }
+
+        function resetView() {
+            map.flyTo({
+                center: MICHIGAN_CENTER,
+                zoom: MICHIGAN_ZOOM
+            });
+        }
+
+        map.on('load', async function () {
+            // Load county centroids
+            const countyData = await loadGeoJSON('/data/mi_counties.geojson');
+            if (countyData) {
+                countyData.features.forEach(feature => {
+                    michiganCounties[feature.properties.name] = feature.geometry.coordinates;
+                });
+                
+                // Populate dropdown
+                const select = document.getElementById('countySelect');
+                for (let county in michiganCounties) {
+                    let option = document.createElement('option');
+                    option.value = county;
+                    option.textContent = county;
+                    select.appendChild(option);
+                }
+            } else {
+                console.error('Failed to load county data');
+            }
+
+            // Load and add point data
+            const pointData = await loadGeoJSON('/data/narcan_directory.geojson');
+            if (pointData) {
+                map.addSource('points', {
+                    type: 'geojson',
+                    data: pointData
+                });
+
+                // Add an outline layer for the points
+                map.addLayer({
+                    id: 'points-outline',
+                    type: 'circle',
+                    source: 'points',
+                    paint: {
+                        'circle-radius': 7,
+                        'circle-color': '#121212',
+                        'circle-opacity': 0.8
+                    }
+                });
+
+                // Add the main point layer
+                map.addLayer({
+                    id: 'points',
+                    type: 'circle',
+                    source: 'points',
+                    paint: {
+                        'circle-radius': 5,
+                        'circle-color': '#B42222'
+                    }
+                });
+
+                // Add popup for points
+                map.on('click', 'points', (e) => {
+                    const coordinates = e.features[0].geometry.coordinates.slice();
+                    const name = e.features[0].properties.name;
+
+                    new maplibregl.Popup()
+                        .setLngLat(coordinates)
+                        .setHTML(name)
+                        .addTo(map);
+                });
+
+                // Change cursor to pointer when over points
+                map.on('mouseenter', 'points', () => {
+                    map.getCanvas().style.cursor = 'pointer';
+                });
+                map.on('mouseleave', 'points', () => {
+                    map.getCanvas().style.cursor = '';
+                });
+            } else {
+                console.error('Failed to load point data');
+            }
+        });
+    </script>
+</body>
+</html>

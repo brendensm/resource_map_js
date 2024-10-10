@@ -1,0 +1,2745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>2024 Narcan Vending Machine Directory</name>
+    <description/>
+    <Style id="icon-1899-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-01579B-nodesc-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-01579B-nodesc-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-01579B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-01579B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-01579B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-3949AB-nodesc-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-3949AB-nodesc-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Torch Cannabis Co.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2631739,45.069976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clean Lines Tattoo Company, LLC.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.3207227,44.248449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benzie County Health Department</name>
+        <description>Outside the main entrance</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1174542,44.629901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Conlon Marilyn E MD, PhD, FAPA, FASAM</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5897079,44.7589096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Well-Spring Psychiatry, PC</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5897079,44.7589096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Fledge</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5326628,42.7320629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Vision of Health & Functional Medicine]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8527764,43.8954803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Grand Rapids Red Project</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6587593,42.9414246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meridian: MAT 1435 N Oakland Blvd</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4330881,42.6588063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Affirmations: 290 W Nine Mile Rd</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.138015,42.460795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Hope: 704 E 9 Mile Rd</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0984128,42.461251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alden-UMC</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.273065,44.881028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baldwin-VM</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8533735,43.8954904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bellaire-UMC</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2107837,44.9803429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Owl Eye Coffee</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4016504,44.2525974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Short's Brewing Co. Pull Barn Tap Room & Production Brewery (Elk Rapids)]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4069903,44.9035337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St Paul's Episcopal Church]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4170612,44.8962885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gold Nugget Bar & Grill]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2454494,45.1651983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flint Serenity House</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.682183,43.025564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UCAN</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.6760117,42.9825361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Crawford County Sheriff's Office]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7164854,44.6601551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Trixie's Bar]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0656051,42.4056389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AC3 (Otto)</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.545971,42.7574675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Fledge</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5326628,42.7320629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harm Reduction Michigan</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.3233893,44.2500339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foothills Cafe</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.9332693,44.8783005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RC Market Place</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.282614,44.8331429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jubilee House</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.617046,44.7619525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wellspring Psychiatry</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5897079,44.7589096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Team Wellness</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3790641,42.326433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Water Recovery</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -82.4334925,42.9776693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wexford Osceola Habitat For Humanity Restore</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4264906,44.2818362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northern Lakes Community Mental Health</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3844501,44.2452139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northern Lakes Community Mental Health</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7076977,44.653971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Salvation Army Family Store & Donation Center]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3960962,44.245535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COVE 906 E Ludington Ave</name>
+        <description>Inside the main entrance of COVE</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -86.4337163,43.9556038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meridian: MAT 269 Summit Dr. Waterford Twp.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3341421,42.6418816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakland County Health Division: 1200 N Telegraph</name>
+        <description>Wall mounted Narcan box</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3260806,42.6556622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakland County Health Division: 26625 Greenfield Rd</name>
+        <description>Wall mounted Narcan box</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2026522,42.4854798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Michigan Community Mental Health</name>
+        <description><![CDATA[Mason office - 9200 Diana St., Ludington <br>231-845-6294]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -86.4321349,43.9574144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Michigan Community Mental Health</name>
+        <description>Oceana Office -105 Lincoln St., Hart 231-873-2108</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -86.3644845,43.7006319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abundant Recovery</name>
+        <description>Substance use treatment center</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1249674,42.3983384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Michigan Community Mental Health</name>
+        <description><![CDATA[Baldwin Office - 1090 N. Michigan Ave., Baldwin <br>231-745-4659]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8510628,43.8990576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flint MTA Transit Center</name>
+        <description>615 Harrison St. Flint, MI 48502</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.6876104,43.0156385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wellness AIDS Services </name>
+        <description>311 East Court Street</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.6849305,43.0141582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quality Behavioral Health, Inc.</name>
+        <description>Substance Use Treatment Center</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0271817,42.3803942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HealthWest Muskegon</name>
+        <description>Located in Lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -86.235562,43.2346622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Therapeutics Wellness & Rehabilitation]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4797708,42.5375423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wayne State University Library</name>
+        <description>Located in WSU library</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0702483,42.3569163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washtenaw County Jail Re-entry center</name>
+        <description>Washtenaw County Jail Re-entry center </description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -83.6795112,42.2544522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delta County Jail Lobby</name>
+        <description>Located in Delta County Jail lobby</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -86.9541814,45.6842387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson County Jail Lobby</name>
+        <description>Located in Jackson County Jail Lobby</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -84.390862,42.2833766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalamazoo Jail Discharge</name>
+        <description>Located in Kalamazoo Jail discharge area</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5490363,42.2759408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monroe County Jail Lobby</name>
+        <description>Located in Monroe County Jail Lobby</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3975541,41.9140578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manistee County Jail Lobby</name>
+        <description>Located in Manistee County Jail lobby</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2722982,44.2710743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wexford County Jail Lobby</name>
+        <description>Located in Wexford County Jail Lobby</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3821602,44.2552937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakland County Jail Lobby</name>
+        <description>Located in Oakland County Jail lobby</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3236867,42.654662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lansing Unitarian Universalist Church of Greater Lansing</name>
+        <description>Punks with Lunch Lansing</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5370526,42.6771545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Harvest Restaurant</name>
+        <description>Punks With Lunch Lansing</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5497846,42.752412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lansing AC3 Community Center</name>
+        <description><![CDATA[Punks With Lunch Lansing<br>Located inside building ]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5459996,42.7574702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lansing Fantasies Unlimited</name>
+        <description>Punks With Lunch Lansing</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5675798,42.7303995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crawford County District Health Department #10</name>
+        <description>https://www.dhd10.org/men-women/syringe-service-program-ssp/ </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7169617,44.6616191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferris State University Michigan College of Optometry</name>
+        <description>Located in vestibule on campus</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4845827,43.6849545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Rapids Community Library</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4821779,43.6933587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10 - Wexford County</name>
+        <description>https://www.dhd10.org/men-women/syringe-service-program-ssp/ </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3852258,44.2452215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpena - CHS</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4527078,45.0515904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Lake Christian Church</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.9378351,44.7099196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meds Cafe</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4512683,45.0594363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Higgins Store</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2752765,44.8810859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bellaire Family & Cosmetic Dentistry]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.1974555,44.9660843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Butch's Tackle & Marine at Torch Lake]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.283646,44.941825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bellaire - Terrain</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2101686,44.9772633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cadillac NLCMHA </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3842577,44.2453303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charlevoix- HDNW </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2636118,45.3113014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elk Rapids Primary Care</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4112204,44.8975166,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Short's Brewing Co. Pull Barn Tap Room & Production Brewery (Elk Rapids)]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4069903,44.9035337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grayling -HDNW</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.6700215,45.0432637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corktown Health Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0665521,42.3250303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NMSAS Recovery Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7185026,45.0289061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grayling-Crawford County Jail </name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7164854,44.6601551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NLCMHA - Grayling</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7076977,44.653971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harbor Springs Community Health Center </name>
+        <description>Suite C</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -84.9030462,45.4191523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harrisville UM Church</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2970234,44.6543023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalkaska Fire Department</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.173659,44.7335668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[M&S Party Store]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.146559,44.8036736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waters Edge Market</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3693844,44.9297437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bojack's Bake Shop & Cafe]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.0615378,44.9025844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Health Department of Northwest Michigan</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.0650451,44.8998028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HRMI Narcan Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.3233887,44.2500338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Life Align Inc.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2592284,43.2065398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pontiac 23 Newberry St</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3164774,42.6373021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pontiac- Sprout</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.313972,42.6357584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meds Cafe</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.7955704,45.3754869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Live Rite Recovery Resource Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -82.9339752,42.5002059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sault Tribe Health and Human Services</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3552299,46.4670811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Boardman Country Store</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.285174,44.641927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catholic Human Services, Inc.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5932373,44.7495868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Higher Grounds Trading Co.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6451705,44.7564787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Plato's Closet Traverse City]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.598342,44.734884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Safe Harbor of Grand Traverse</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.613019,44.7586006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Vincent de Paul, Grand Traverse Area</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6068867,44.7458697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Traverse Area District Library</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.608755,44.757227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Michigan Therapeutic Consultants</name>
+        <description>Central MI District Health Department</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7604655,43.6173361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alba Star. Twp. Fire Station</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.952453,44.9747201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpena Drug Store</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4566513,45.0447865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thunder Bay CHS </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.155239,45.0067875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great Lakes Recovery Mission</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.7000894,43.0197483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jacobson Marina Resort</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2398834,44.6315574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bead & Powwow Supply]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5263976,42.9136987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Botanical Co. - Lansing</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5900545,42.7686032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strange Matter Coffee</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.521969,42.733422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>For A Brighter Tomorrow</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.218816,43.6141785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Village Market</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2817611,44.853115,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shelbyville Gun Lake Tribe HHS</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6493878,42.6286912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Country Store</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.285174,44.641927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Traverse City 488 Northside</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5798821,44.7588409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spanglish</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6454329,44.7559777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DHD2 West Branch</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.2432734,44.2675448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mancinos</name>
+        <description>(Near back of building)</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4045436,44.2557889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cadillac Area YMCA Dillon Community Center</name>
+        <description>(Inside lobby)</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3795493,44.2652297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10- Lake County Office</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8521435,43.9058627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10 - Mecosta County Office</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4846115,43.6753044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saginaw County Department of Public Health</name>
+        <description>Located on 1st floor </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.9502535,43.4303362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HOPE Shelter</name>
+        <description><![CDATA[Located Outside<br>Carolyn: 248-330-4185]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2997187,42.651542,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marathon Gas</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2847637,42.650494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CNS Healthcare</name>
+        <description>Located in Lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3339968,42.6418871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Healing Hearts Safety Services</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2945669,42.6380766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gary Burnstein Community Health Clinic</name>
+        <description>Located in Lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2837989,42.6249056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sacred Heart Rehabilitation Center Madison Heights Recovery & Wellness Services]]></name>
+        <description>Located in lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0858547,42.5005065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Oak Police Department</name>
+        <description>Located in Lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1402505,42.4896812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. Timothy Gammons</name>
+        <description>Located in Lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1459294,42.4788828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meridian Health Services </name>
+        <description>Located in Lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.43308,42.6588185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neu Urgent Care</name>
+        <description>Located in Lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.0990834,42.4612914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Fire Station 2</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4161409,42.5406958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Fire Station 3</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4125714,42.5876396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Fire Station 4</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.399867,42.607801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Township Fire Station No. 5</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.347992,42.5428356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakland Community Health Network</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1724929,42.5984497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Therapeutics LLC</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3033661,42.6817328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterford Motel</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3317561,42.6664518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skywood Outpatient</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1449472,42.4878137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Civic Center</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3733967,42.5603951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Hill Farms</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3196351,42.6657307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lakepoint Community Church</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2866592,42.8110198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eight Wood Motel Inc</name>
+        <description>Located outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1285025,42.4470089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Liquor</name>
+        <description>Located Outside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.124012,42.4906969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bloomed Behavioral Healthcare</name>
+        <description>Located inside</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.7497732,43.016524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterford Police Department</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3904633,42.6711967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Focus Program INV</name>
+        <description>Located inside Wall Mount</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1821079,42.4538133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berkley Public Safety Department</name>
+        <description>Located inside wall mount</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.18268,42.5029661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berkley City Parks and Recreation</name>
+        <description>Located inside wall mount</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.18834,42.4945445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berkley Public Library</name>
+        <description>Located inside wall mount</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1841891,42.5010239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berkley City Hall</name>
+        <description>Located inside wall mount</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.1832087,42.5025306,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Fire Station No. 1</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3614598,42.569807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orion Township Public Library</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2817081,42.7711712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recreation Activities Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3747724,42.5586435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Westacres Branch Library</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4284238,42.5916197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Township Public Library</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3747966,42.5600029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Bloomfield Fire Station #9</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3491418,42.6018618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakland University</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2082347,42.6678782,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.432827,43.9572497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.356575,43.7166442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.3227015,44.243855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Exchange </name>
+        <description>Located Outside Contact Exchange Central at (989) 259-4549 for more syringe service supplies and resources.</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5251337,43.8778441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The River Free Methodist Church</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.7120463,44.4039776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Police Department-Detention-Jail</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.553155,42.7339063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ingham County Jail Lobby</name>
+        <styleUrl>#icon-1899-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4547471,42.5901802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Club Tabu</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5681568,42.6999617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reutter Park</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5546503,42.7294179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ingham County Health Department</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5450748,42.6809066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wellness, InX/Lifeboat Network Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.527011,42.7337722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corewell Health Big Rapids Hospital</name>
+        <description>Located inside the emergency department front entrance </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4744374,43.6942159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corewell Health Reed City Emergency Department</name>
+        <description>Located inside the emergency department waiting area </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5215826,43.8786779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corewell Health Reed City Hospital Family Medicine</name>
+        <description>Located inside the waiting area/lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5215705,43.878686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corewell Health Evart Family Practice</name>
+        <description>Located inside waiting area/lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2758068,43.901181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corewell Health Canadian Lakes Family Practice</name>
+        <description>Located in waiting area/lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2865541,43.5886307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corewell Health Big Rapids Care Center</name>
+        <description>Located in urgent care waiting area and located in the Family Practice waiting area/lobby</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5162404,43.6819189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mancelona HD-NW</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.0652251,44.899806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alcona County Building </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2963525,44.657064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harrisville Services </name>
+        <description>205 N State St. Suite A</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.2949548,44.6579994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gilberts Drug Store</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3304069,44.4188935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpena Services</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.45852,45.0913785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpena-The Drug Store </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4565316,45.0446246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ossineke Services </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.4421403,44.9059489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cracker Jack Board Shack</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.0133299,45.215928,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charlevoix Alano Club</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2600135,45.3156822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BASES Recovery Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2598514,45.3035201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7169617,44.6616191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northern Lakes Community Mental Health</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7065576,44.6529493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Traverse City 488 Southside</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5798821,44.7588409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catholic Human Services, Inc.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5932373,44.7495868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Bay Twp. Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5577924,44.714305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mack's Dentistry ]]></name>
+        <description>Suite D</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6428924,44.7222709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalamazoo Recovery Institute of SWMI</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5893061,42.290908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kalkushka Lounge</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.1777852,44.7321179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baldwin-DHD10 Lake County</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8400366,44.0690593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manistee HRMI box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8613113,43.9007892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Annie's Kozy Kitchen]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.9632159,44.2258088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Superior Connections RCO</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.3920874,46.543851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bid Rapids District Health Department #10 Mecosta County</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4846115,43.6753044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meds Cafe - Recreational Marijuana Dispensary Big Rapids MI</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4817988,43.6960693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>For A Brighter Tomorrow</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.218816,43.6141785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hillman- Thunder Bay CHS </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.9017402,45.0700599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairview Thunder Bay Community Health Service, Inc.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.0547178,44.7246974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Oscoda Services</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3304137,44.4191217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Onaway Thunder Bay CHS</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.2418259,45.3542943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rogers City Thunder Bay CHS</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.826405,45.4127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LMAS District Health Department-Manistique</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.8137047,45.4177021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>North Point Medical Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -82.6900355,42.6914405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montmorency Box- Avery Twp</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.0939578,45.000692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montmorency- Briley Twp. Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.1445229,45.0049592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montmorency- DHD4 Atlanta Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.1490109,45.0051161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montmorency- Loud Twp. Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5980985,45.0164379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montmorency- Patchwood Plaza</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.9001763,45.0559874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montmorency- Albert Twp.Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3058853,44.8829269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montmorency- Big Bear Trading Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.3700239,44.9697261,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benzonia- BACN Box</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1003375,44.5911494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRACE center - Grayling</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7375068,44.6553467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harbor Hall Outpatient Petoskey</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.922409,45.373156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Harbor Hall Residential & Main Office]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.9593029,45.370615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Interlochen Fire Department</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.7670489,44.6447931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Traverse City - Pines Box </name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6328553,44.7557774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manistee County Library, Kaleva</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.0082891,44.3761136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manistee County Library</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.3234425,44.2461998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5283 Main St</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1969865,44.3612734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manistee County Library, Onekama</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1971501,44.3613178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lovells Township Hall</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.4858016,44.8054008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Harrisville Lincoln Services</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.403397,44.6838689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>District Health Department #10 - Kalkaska </name>
+        <description><![CDATA[District Health Department #10 - Kalkaska <br>625 Courthouse Dr.<br>Kalkaska, MI 49646<br>231-258-8669<br>https://www.dhd10.org/men-women/syringe-service-program-ssp/]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.1867327,44.7396233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Archer Country Store</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.9385542,44.519294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benzie Area Christian Neighbors</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.10017,44.591154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benzie Bus</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.9563897,44.6602826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Benzie-Leelanau District Health Department</name>
+        <description>In the lobby (not a distribution box). Available during business hours </description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -85.7048119,44.9869683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leelanau Christian Neighbors</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.7064096,44.9837158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NMU WellBeing Center</name>
+        <description>Located in Lot 15</description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -87.411306,46.5617739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ann Arbor City Hall</name>
+        <description><![CDATA[Located in South Vestibule (Huron St. side) <br>Operating hours: During business hours and all public meetings and events ]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.745682,42.2818271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Barn at First Congregational Church of Benzonia</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.1005151,44.6190089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Leelanau Group Real Estate, LLC</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.7963534,44.8461755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frankfort United Methodist Church</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2379956,44.6385632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elberta United Methodist Church</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2284741,44.619292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Congregational Church of Frankfort, MI</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2380181,44.633956,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tat-man Tatt 2s</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.399511,44.4241491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Bostick's Drug Store]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.3991038,44.4106223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wexford County Building</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4044226,44.2523486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Michigan Coffee Co.</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.4548081,44.2353604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gaylord: Otsego County United Way</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.672883,45.0212501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roscommon County Food Pantry</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.7736282,44.3230094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northern Lakes Community Mental Health</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.732467,44.2951871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Health – Muskegon Recovery Center</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2035367,43.2374298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[COPE Network (Community Outreach Prevention & Education Network)]]></name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5384087,42.2665003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ISK Behavioral Health Urgent Care</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5891101,42.294523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recovery Institute of Southwest Michigan, Inc.</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5893061,42.290908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Integrated Services of Kalamazoo</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5763134,42.2844937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ISK Alcott and Portage</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5731761,42.2707178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ministry with Community</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5807557,42.2961034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WMU Clinic Crosstown</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.59984,42.2829349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Comstock Township Library</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5095191,42.2864907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reach Sober Living</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.6152944,42.2945228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alano Club</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.582568,42.2819763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bridgeways Case Management</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5834378,42.2758356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northside Association for Community Development</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5870946,42.2974399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Urban Alliance</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.5673647,42.2776438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riverwood Center</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.4350537,42.0911098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Riverwood Center</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.2619267,41.8276885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Daily Recovery Zone</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8837011,42.2179876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Recovery Services Unlimited, Inc</name>
+        <styleUrl>#icon-1899-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.2333089,42.2976584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salvation Army Harbor Light</name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.3742661,41.961591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washtenaw County Health Department</name>
+        <description><![CDATA[Located in the atrium (near the bathrooms and free condom vending machine). Fentanyl test strips also available in the vending machine.<br><br>Hours: Monday-Friday 8:30am-5:00pm (excluding holidays)<br><br>See www.washtenaw.org/naloxone for additional local naloxone sites. ]]></description>
+        <styleUrl>#icon-1899-01579B</styleUrl>
+        <Point>
+          <coordinates>
+            -83.6003341,42.2397575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Safe Substance Drug Checking Services </name>
+        <description>Insert Address, Contact, and Hours Here.</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -84.2247674,43.9244937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Community Outreach & Recovery Center]]></name>
+        <styleUrl>#icon-1899-01579B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.0111607,44.3730149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
